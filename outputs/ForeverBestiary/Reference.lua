@@ -1,0 +1,11 @@
+local _, F = ...
+-- A small reference pack of prior in-game observations, not server loot tables.
+-- Contains no account names, character names, personal notes, counts or GUIDs.
+local records={[277882]={["name"]="Foothills Duskbat",["zone"]="Silverpine Forest",["loot"]={{["itemID"]=783,["name"]="Light Hide",["method"]="Unspecified loot/gathering observation"},{["itemID"]=2318,["name"]="Light Leather",["method"]="Unspecified loot/gathering observation"},{["itemID"]=6293,["name"]="Dried Bat Blood",["method"]="Unspecified loot/gathering observation"},{["itemID"]=6296,["name"]="Patch of Bat Hair",["method"]="Unspecified loot/gathering observation"}}},[1766]={["name"]="Mottled Worg",["zone"]="Silverpine Forest",["loot"]={{["itemID"]=2318,["name"]="Light Leather",["method"]="Unspecified loot/gathering observation"},{["itemID"]=2672,["name"]="Stringy Wolf Meat",["method"]="Unspecified loot/gathering observation"},{["itemID"]=2934,["name"]="Ruined Leather Scraps",["method"]="Unspecified loot/gathering observation"}}},[1868]={["name"]="Ravenclaw Servant",["zone"]="Silverpine Forest",["loot"]={}},[1767]={["name"]="Vile Fin Shredder",["zone"]="Silverpine Forest",["loot"]={{["itemID"]=730,["name"]="Murloc Eye",["method"]="Unspecified loot/gathering observation"},{["itemID"]=1501,["name"]="Calico Tunic",["method"]="Unspecified loot/gathering observation"},{["itemID"]=5523,["name"]="Small Barnacled Clam",["method"]="Unspecified loot/gathering observation"}}},[1869]={["name"]="Ravenclaw Champion",["zone"]="Silverpine Forest",["loot"]={{["itemID"]=2589,["name"]="Linen Cloth",["method"]="Unspecified loot/gathering observation"}}},[1765]={["name"]="Worg",["zone"]="Silverpine Forest",["loot"]={{["itemID"]=2318,["name"]="Light Leather",["method"]="Unspecified loot/gathering observation"},{["itemID"]=2672,["name"]="Stringy Wolf Meat",["method"]="Unspecified loot/gathering observation"},{["itemID"]=2934,["name"]="Ruined Leather Scraps",["method"]="Unspecified loot/gathering observation"}}}}
+for _,r in pairs(records) do
+    r.source="Forever Bestiary prior in-game observations"
+    r.checked="2026-11-06"; r.build="1.60.1.70790"; r.complete=false
+end
+function F.Reference(id) return records[id] end
+F.referenceVersion="2026-11-06-pilot"
+F.referenceCount=6

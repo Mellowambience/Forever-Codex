@@ -1,0 +1,36 @@
+## Interface: 16001
+## Title: Forever Codex
+## Notes: An adventure journal with a bestiary, field notes and Campfire Tales.
+## Author: Forever Bestiary
+## Version: 0.3.20
+## X-Curse-Project-ID: 1787762
+## IconTexture: Interface\AddOns\ForeverBestiary\Media\CodexIcon
+## SavedVariables: ForeverBestiaryDB, ForeverBestiaryBackup, ForeverBestiaryPrices, ForeverBestiarySupport
+## SavedVariablesPerCharacter: ForeverCodexTales
+## AllowLoadGameType: camelot
+ForeverBestiary.lua
+Themes.lua
+Storage.lua
+Journal.lua
+Reference.lua
+Loot.lua
+Prices.lua
+Tooltips.lua
+Recipes.lua
+Widgets.lua
+LootUI.lua
+Viewer.lua
+Layout.lua
+UI.lua
+AuctionSell.lua
+AuctionPriceSearch.lua
+Support.lua
+TaleVoices.lua
+TaleWriter.lua
+Tales.lua
+TalesUI.lua
+Atlas.lua
+Professions.lua
+Today.lua
+Events.lua
+

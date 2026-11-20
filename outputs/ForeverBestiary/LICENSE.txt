@@ -1,0 +1,5 @@
+All Rights Reserved.
+
+This addon is distributed through CurseForge and the owner's GitHub repository by its project owner. No permission is granted to redistribute or create derivative releases except as required by applicable law or separately authorized by the project owner.
+
+World of Warcraft, its native UI textures, and its creature models belong to their respective rights holders. They are referenced through the game client and are not bundled with this addon.

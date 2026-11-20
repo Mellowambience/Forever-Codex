@@ -1,0 +1,25 @@
+# Local release artifacts and exploratory work
+__pycache__/
+*.pyc
+*.zip
+work/*
+!work/test_release.py
+!work/test_today.py
+!work/test_gold_prices.py
+!work/test_tooltips_search.py
+!work/test_auction_regressions.py
+!work/test_prices.py
+!work/test_layout.py
+!work/test_ui_recovery.py
+!work/test_themes.py
+!work/test_tales.py
+!work/test_roadmap.py
+!work/test_support.py
+!work/test_seller.py
+!work/check_release.py
+!work/package_release.py
+outputs/*
+!outputs/ForeverBestiary/
+!outputs/CURSEFORGE-DESCRIPTION.md
+!outputs/PUBLISHING.md
+!outputs/codex-icon-source.png
