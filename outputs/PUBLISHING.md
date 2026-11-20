@@ -9,7 +9,11 @@ Target: WoW Forever 1.60.1, Interface 16001. Release channel: Beta.
 Today's Page, selected-recipe AH price checks, custom crescent grimoire icon, and current description/roadmap.
 All 13 local release checks passed. Live-client visual and AH checks remain outstanding; the game was not running during release preparation.
 Package SHA-256: 52e1c46bb1e7af111b5868a46b104c59b783b2819355098c568cfce809a61ccd
-CurseForge submission: not yet submitted.
+CurseForge file 9709312 submitted November 19, 2026 at 9:55 p.m. Eastern. Last observed status: Processing. Automatic publication after approval enabled. Target Forever 1.60.1 verified.
+
+Author file: https://authors.curseforge.com/#/projects/1787762/files/9709312
+GitHub beta release: https://github.com/Mellowambience/Forever-Codex/releases/tag/v0.3.20
+GitHub source and tag pushed; uploaded release asset digest matches the local ZIP. Live CurseForge description saved successfully with the 0.3.20 feature list and updated roadmap.
 
 ## Previous approved versions
 
